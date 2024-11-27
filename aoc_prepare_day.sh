@@ -8,9 +8,7 @@ if [ ! -e "main.py" ]; then
 runall = True
 if __name__ == '__main__':
     if runall:
-
-" > main.py
-
+        start = perf_counter()" > main.py
 fi
 
 day=$1 
